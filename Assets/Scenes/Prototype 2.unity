@@ -1003,6 +1003,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2095532188}
+  - component: {fileID: 2095532189}
   m_Layer: 0
   m_Name: SpawnManager
   m_TagString: Untagged
@@ -1025,6 +1026,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2095532189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095532187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc30231062161074c88e8abc702e552d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animalPrefabs:
+  - {fileID: 983985645712964655, guid: 0c59c3a3c1f567a45811e0a9b68637d4, type: 3}
+  - {fileID: 4989208718471821868, guid: 987d616f7fb3f5a469398a68c24c9e2f, type: 3}
+  - {fileID: 909306285438917977, guid: 4169ecf06b038b74a8fbce11ccf5ba96, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
